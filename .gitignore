@@ -1,0 +1,32 @@
+# 빌드 아티팩트
+/build/
+*.o
+*.a
+*.so
+
+# 실행 파일
+/vibe_coding
+/src/vibe_coding
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 곡 파일들 (예제 실행 후 생성)
+songs/*.txt
+songs/*.json
+!songs/.gitkeep
+
+# 임시 파일
+*.tmp
+*.log
+
+# 코어 덤프
+core.*
